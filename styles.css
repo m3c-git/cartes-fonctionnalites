@@ -1,0 +1,82 @@
+body 
+{
+    font-size: 15px;
+    font-family: popins sans-serif;
+    background: hsl(0, 0%, 98%);
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1
+{
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+h1 p
+{
+    text-align: end;
+}
+
+p
+{
+    color: hsl(229, 6%, 66%);
+}
+
+main
+{
+    margin: 50px 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+h2
+{
+    color: hsl(234, 12%, 34%);
+
+}
+
+main div
+{
+    border-radius: 5px;
+    padding: 10px 5px;
+    height: 300px;
+    width: 400px;
+    background: #fff;
+}
+
+.div1
+{
+    grid-area: 1 / 1 / 3 / 2;
+    margin-top: 150px;
+    margin-right: 0px;
+}
+
+.div2
+{
+    grid-area: 1 / 2 / 2 / 3;
+    margin-bottom: 10px;
+}
+
+.div3
+{
+    grid-area: 2 / 2 / 3 / 3;
+    margin-top: 10px;
+
+}
+
+.div4
+{
+    grid-area: 1 / 3 / 3 / 4;
+    margin-top: 150px;
+
+}
