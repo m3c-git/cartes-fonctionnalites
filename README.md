@@ -1,6 +1,6 @@
-# Frontend Mentor - Solution pour le composant QR code
+# Frontend Mentor - Solution section de quatre cartes de fonctionnalités
 
-Il s'agit d'une solution au [défi d'une section de quatre cartes sur Frontend Mentor] (https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Les défis Frontend Mentor vous aident à améliorer vos compétences en codage en réalisant des projets réalistes. 
+Il s'agit d'une solution au [défi d'une section de quatre cartes sur Frontend Mentor] (https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Les défis Frontend Mentor vous aident à améliorer vos compétences en codage en réalisant des projets réalistes. 
 
 ## Table des matières
 
