@@ -28,6 +28,15 @@ header
     margin: 20px auto;
 }
 
+.headerpt 
+{
+display: none;
+}
+.headerp
+{
+display: flex;
+}
+
 h1
 {
     margin: 45px 0px 10px 0;
@@ -37,6 +46,7 @@ h1
 strong 
 {
     line-height: 50px;
+    font-weight: 600;
 }
 
 h1 p
@@ -51,6 +61,7 @@ p
 {
     color: hsl(229, 6%, 66%);
     font-family: 'poppins', sans-serif;
+    font-weight: 400;
 }
 
 main
@@ -107,8 +118,14 @@ h2
 {
     color: hsl(234, 12%, 34%);
     font-family: 'poppins', sans-serif;
+    font-weight: 600;
 
+}
 
+.texte-cartes
+{
+font-size: 12px;
+padding: 8px 15px 0 0;
 }
 
 main div
@@ -117,9 +134,6 @@ main div
     height: 240px;
     width: 350px;
     background: #ffffff;
-
-    
-
 }
 
 main div h2
@@ -134,7 +148,6 @@ main div h2
     position: relative;   
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
     justify-self: center;
-
 }
 
 .div2
@@ -146,8 +159,6 @@ main div h2
     position: relative;   
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
     justify-self: center;
-
-
 }
 
 .div3
@@ -159,8 +170,6 @@ main div h2
     position: relative;   
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
     justify-self: center;
-
-
 }
 
 .div4
@@ -170,8 +179,6 @@ main div h2
     position: relative;   
     box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
     justify-self: center;
-
-
 }
 
 .div1 div, .div2 div, .div3 div, .div4 div
@@ -187,7 +194,6 @@ img
     position: absolute;
     right: 30px;
     bottom: 30px;
-
 }
 
 footer
@@ -197,38 +203,105 @@ footer
 
 /* Responsive */
 
-@media screen and (max-width: 1024px) {
-    main {
-        margin: 40px auto;
+@media screen and (max-width: 1024px) 
+{
+
+    header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+}
+    .headerpt
+    {
+        padding-right: 20px;
         display: block;
+        font-size: 11px;
+        white-space: pre;
 
     }
+    .headerp
+    {
+    display: none;
+    }
+
+    h1
+    {
+        font-size: 18px;
+        margin-top: 50px;
+
+    }
+
+    strong 
+    {
+        line-height: 0px;
+        font-weight: 600;
+    }
+
+    main 
+    {
+        margin: 0px auto;
+        display: block;
+    }
+    .texte-cartes
+    {
+    font-size: 8px;
+    padding: 5px 0px 0 0;
+    }
+
+
+    main div
+    {
+        height: 190px;
+        width: 230px;
+    }
+    main div h2
+    {
+        font-size: 15px;
+        padding-top: 13px;
+
+    }
+
     .div1
-{
-    margin: 30px auto;
+    {
+        margin: 30px auto;
+    }
 
-}
+    .div2
+    {
+        margin: 30px auto;
+    }
 
-.div2
-{
-    margin: 30px auto;
+    .div3
+    {
+        margin: 30px auto;
+    }
 
+    .div4
+    {
+        margin: 30px auto;
+    }
 
+    img
+    {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
 
-}
+    .attribution
+    {
+        margin-bottom: 0px;
+        font-size: 9px;
+    }
 
-.div3
-{
-    margin: 30px auto;
-
-
-}
-
-.div4
-{
-    margin: 30px auto;
-
-
-}
+    footer
+    {
+        margin-bottom: 20px;
+    }
 
 }
