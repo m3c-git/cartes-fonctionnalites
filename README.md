@@ -20,8 +20,8 @@ Il s'agit d'une solution au [défi d'une section de quatre cartes sur Frontend M
 
 ### Liens
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/m3c-git/cartes-fonctionnalites)
+- Live Site URL: (https://m3c-git.github.io/cartes-fonctionnalites)
 
 ## Mon processus
 
