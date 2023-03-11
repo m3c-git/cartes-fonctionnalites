@@ -17,6 +17,9 @@ Il s'agit d'une solution au [défi d'une section de quatre cartes sur Frontend M
 ## Aperçu
 
 ### Capture d'écran
+![screenshot_1](https://user-images.githubusercontent.com/122054879/224516149-e2cd9ce1-3faa-4936-9017-659c9d434682.png)
+
+![screenshot_2](https://user-images.githubusercontent.com/122054879/224516151-21c7b4e3-9dd0-442d-ab28-1394b2641324.png)
 
 ### Liens
 
